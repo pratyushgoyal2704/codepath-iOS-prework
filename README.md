@@ -1,4 +1,4 @@
-# Pre-work - *Tip Calculator*
+# Pre-work - *Name of App Here*
 
 **Tip Calculator** is a tip calculator application for iOS.
 
@@ -28,15 +28,17 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+![](https://i.imgur.com/1CNR1Wn.gif)
 
-GIF created with ![ezgif](https://imgur.com/a/oRtMLyZ.gif).
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Some challenges I faced while making this app:
 
- - Navigating through XCode. 
- - Trying to implement the bonus features.   
+* Navigating through XCode.
+* Trying to implement the bonus features.
 
 ## License
 
