@@ -15,30 +15,29 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 
-* [N] UI animations
+* [Y] UI animations
 * [N] Remembering the bill amount across app restarts (if <10mins)
 * [N] Using locale-specific currency and currency thousands separators.
 * [N] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [N] List anything else that you can get done to improve the app functionality!
+- [Y] Added small UI color and design changes. Added an animation to display the total amount in the center of the screen. (not exactly center currently)   
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-![](https://i.imgur.com/1CNR1Wn.gif)
+![](https://i.imgur.com/561Zup3.gif)
 
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Some challenges I faced while making this app:
 
 * Navigating through XCode.
-* Trying to implement the bonus features.
+* Dealing with errors, bugs, compiler messages.
+* Trying to center the total amount label, as part of an added animation I tried to implement.  
 
 ## License
 

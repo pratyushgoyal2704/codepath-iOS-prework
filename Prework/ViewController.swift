@@ -20,8 +20,22 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let button = UIButton(frame: CGRect(x: view.frame.size.width - 300, y: view.frame.size.height - 400, width: 200, height: 70))
+        button.backgroundColor = .black
+        button.setTitleColor(.white, for: .normal)
+        button.setTitle("Start Animation", for: .normal)
+        button.addTarget(self, action: #selector(animate), for: .touchUpInside)
+        view.addSubview(button)
+
     }
     
+    @objc func animate() {
+        UIView.animate(withDuration: 1, animations: {
+            self.totalLabel.frame = CGRect(x: 100, y: 100, width: 200, height: 200)
+            self.totalLabel.center = self.view.center
+            
+        })
+    }
 
     @IBAction func calculateTip(_ sender: Any) {
         let bill = Double(billAmountTextField.text!) ?? 0
